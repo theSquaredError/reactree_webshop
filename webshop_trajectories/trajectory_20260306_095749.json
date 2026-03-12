@@ -1,0 +1,430 @@
+[
+  {
+    "type": "expand",
+    "goal": "instruction: find me machine wash",
+    "subgoals": [
+      "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+    ],
+    "reasoning": "Reasoning for goal: instruction: find me machine wash"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "search[Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: Ollama error: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 4) [SEP] Next > [SEP] B092LSVMTY [SEP] YHJIC Helmet Virtual Reality Headset Press for Smartphone Cardboard Casque Phone Android 3D Lense [SEP] $22.57 [SEP] B08R3XSC65 [SEP] Pointed Toe Pumps Shoes, Stiletto Plaid Leather High Heels, Sexy Elegant Party Wedding Work Court Shoes,Wine red,40 [SEP] $100.0 [SEP] B09B7G7P58 [SEP] 3-Piece Dining Table Set, Farmhouse Counter Height Dining Table Set, Wood Dining Table Set with Drop Leaf Table/2 Cross Back Padded Chairs/One Shelf [SEP] $319.0 [SEP] B001E77OCU [SEP] ARM & HAMMER Peroxicare Toothpaste \u2013 Clean Mint- Fluoride Toothpaste , 6 Ounce (Pack of 6) [SEP] $100.0"
+  }
+]

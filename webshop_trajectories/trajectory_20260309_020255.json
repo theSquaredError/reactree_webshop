@@ -1,0 +1,193 @@
+{
+  "report": {
+    "instruction": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+    "trajectory": [
+      {
+        "step_id": 1,
+        "decision_id": 1,
+        "subgoal": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+        "action": "Think",
+        "observation": "The user is looking for a specific type of clothing, so I should start by searching the webshop for relevant products.",
+        "success": null,
+        "terminate": null
+      },
+      {
+        "step_id": 1,
+        "decision_id": 2,
+        "subgoal": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+        "action": "Think",
+        "observation": "The search query is incomplete, I need to refine it to include the specific product types and features.",
+        "success": null,
+        "terminate": null
+      },
+      {
+        "step_id": 1,
+        "decision_id": 3,
+        "subgoal": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+        "action": "search[Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars]",
+        "observation": "Instruction: [SEP] Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 50) [SEP] Next > [SEP] B099WX3CV5 [SEP] Women Aesthetic Short Sleeve Jumpsuit Bodycon Sexy V Neck Button Shorts Rompers Knitted One Piece Bodysuit Overall [SEP] $13.99 to $24.89 [SEP] B09QCVCYVY [SEP] Burband Womens High Waist Bike Shorts Tummy Control Workout Yoga Pants Running Exercise Running Shorts with Side Pockets [SEP] $6.82 [SEP] B099231V35 [SEP] Mens Casual Cargo Pants Hi Vis Viz Reflective Overalls High Visibility Safe Work Pants Outdoor Hiking Trousers Big and Tall [SEP] $16.79 [SEP] B09PBPZ24Z [SEP] myhehthw Women's High Waisted Jeans for Women Distressed Ripped Jeans Slim Fit Butt Lifting Skinny Stretch Jeans Trousers [SEP] $22.99 to $25.99 [SEP] B09NDS8F4V [SEP] AODONG Onesie Pajamas for Women Onesies Romper Pajamas Printed Bodycon Jumpsuit Shorts Sexy One Piece Pjs Overall [SEP] $2.99 to $7.99 [SEP] B09QQP3356 [SEP] HAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops [SEP] $10.99 [SEP] B09M63B87V [SEP] YALFJV Women Long Sleeve Crew Neck Side Button T Shirts Tunic Dress Loose Asymmetric Hem Tunic Pullover to Wear with Leggings [SEP] $10.71 to $18.34 [SEP] B09Q37JQZ6 [SEP] Women's Sexy Swimsuit One Piece High Neck Halter Bikini Floral Stiching See Through Monokini Tummy Control Beachwear [SEP] $10.99 to $18.99 [SEP] B09Q5ZHRVM [SEP] Yinimo Mens Gym Shorts Fashionable Loose Beach Drawstring Turkey Print Beach Cool Shorts [SEP] $19.19 [SEP] B09R9YCM6R [SEP] XXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops [SEP] $8.98 to $11.99\n[reward=0.0]",
+        "success": false,
+        "terminate": null
+      },
+      {
+        "step_id": 2,
+        "decision_id": 4,
+        "subgoal": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+        "action": "Expand",
+        "observation": "control_flow=fallback; subgoals=['- goal1: Search for \"green stripe\" in product description']",
+        "success": null,
+        "terminate": null
+      },
+      {
+        "step_id": 2,
+        "decision_id": 5,
+        "subgoal": "- goal1: Search for \"green stripe\" in product description",
+        "action": "click[next >]",
+        "observation": "Instruction: [SEP] Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars [SEP] Back to Search [SEP] Page 2 (Total results: 50) [SEP] < Prev [SEP] Next > [SEP] B09HGFV91W [SEP] ZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover [SEP] $4.98 to $7.99 [SEP] B09S3BN15C [SEP] Mens Linen Shirt,Men's Striped Shirts Casual Short Sleeve Button Down Shirts Regular Fit Hawaiian Shirts Beach Tees Tops [SEP] $3.78 to $11.38 [SEP] B09PL5W9PD [SEP] Women's One Piece Swimsuit Halter Plunge Neck Tummy Control Bathing Suits Push Up Tankini Sets Plus Size Beachwear [SEP] $7.8 [SEP] B09RV4TXKJ [SEP] ORT Bodycon Lingeries for Women,2 Piece 2 pc Sleepwear for Women,Sexy Printed Ugly Valentine Nightdress Loungewear Lingeries Rompers Clubwear [SEP] $13.08 [SEP] B09HY9XB8P [SEP] Brief INSANTIY Boxer Briefs for Men and Women | Bourbon Wine Print Boxer Shorts - Comfy, Casual Underwear (XX-Large) [SEP] $19.95 [SEP] B09PVNLVRW [SEP] Women's V-Neck Rompers Printed Jumpsuit Long Sleeve Homewear Butt Flap Pajamas One-Piece Onesies Nightwear Sexy Bodysuit [SEP] $17.4 to $28.67 [SEP] B09KP78G37 [SEP] Women Faux Fur Lined Jacket Coat Winter Warm Thick Fleece Outwear Trench Zipper Plus Size Long Sleeve Plush Overcoat [SEP] $47.41 to $59.07 [SEP] B09NNMV9LN [SEP] JSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt [SEP] $3.99 to $10.99 [SEP] B09QCP4579 [SEP] LWLW High Waist Yoga Shorts for Women,Tummy Control Biker Shorts Exercise Workout Butt Lifting Tights Women's Short Pants [SEP] $13.99 [SEP] B09Q67H373 [SEP] JSPOYOU 2022 Newly T-Shirt for Mens Funny 3D Graphics Pattern Crewneck Short Sleeve Tees Big and Tall Summer Casual Comfy Top [SEP] $1.99 to $8.99\n[reward=0.0]",
+        "success": false,
+        "terminate": null
+      },
+      {
+        "step_id": 3,
+        "decision_id": 6,
+        "subgoal": "- goal1: Search for \"green stripe\" in product description",
+        "action": "click[next >]",
+        "observation": "Instruction: [SEP] Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars [SEP] Back to Search [SEP] Page 3 (Total results: 50) [SEP] < Prev [SEP] Next > [SEP] B07MGB73NJ [SEP] Viracy Women's Short Sleeve V-Neck Casual Flowy Tunic Shirt (M-3XL) [SEP] $16.99 to $26.99 [SEP] B085S5P7WB [SEP] Women High Waist Tummy Control Fitness Yoga Pants Mesh Patchwork Leggings Sexy Lace Stitching Tights [SEP] $0.01 to $2.99 [SEP] B09RVF4JP1 [SEP] Once Upon A Time Queen Born In 1982 T Shirts It Was Me Tank Top [SEP] $19.99 [SEP] B08KYBVQ46 [SEP] adidas Originals Women's Adicolor Essentials Tights [SEP] $16.82 to $35.0 [SEP] B09KLQLLT2 [SEP] Long Sleeve Superhero T Shirt Tank Top Mens Compression Shirt Men Workout Fitness Gym Shirt [SEP] $19.99 [SEP] B09PYSKD7H [SEP] FIN86 Men's Elastic High Waisted Shorts,Men's Summer Printed Casual Shorts Loose Tether Pocket Board Shorts [SEP] $9.98 to $12.98 [SEP] B093KBGC44 [SEP] Set of 2 Mesh Laundry Bags Cute Colorful Llama-1 Medium & 1 Small Bags Laundry,Blouse, Hosiery, Stocking, Underwear, Bra Lingerie, Travel Laundry Bag(8rp7d) [SEP] $15.99 [SEP] B09ND8P2QR [SEP] InterestPrint Deer and Stars Men's Loungewear Pajama Sets - Long Sleeve Tee and Jogger Pant [SEP] $43.59 [SEP] B09ND9DP7J [SEP] InterestPrint Gold Horse Pattern Men's 2-Piece Sleepwear Set, Long Sleeve Shirt with Pants Loungewear [SEP] $43.59 [SEP] B095SX6366 [SEP] WYTong Women Dress Summer V Neck Swing Dress Fashion Solid Color Tie the knot Short sleeves Leisure Dress [SEP] $9.99 to $11.99\n[reward=0.0]",
+        "success": false,
+        "terminate": null
+      },
+      {
+        "step_id": 4,
+        "decision_id": 7,
+        "subgoal": "- goal1: Search for \"green stripe\" in product description",
+        "action": "Expand",
+        "observation": "control_flow=sequence; subgoals=['- goal1: Search for \"green stripe\" in product description']",
+        "success": null,
+        "terminate": null
+      },
+      {
+        "step_id": 4,
+        "decision_id": 8,
+        "subgoal": "- goal1: Search for \"green stripe\" in product description",
+        "action": "Expand",
+        "observation": "control_flow=sequence; subgoals=['- goal1: Search for \"green stripe\" in product description']",
+        "success": null,
+        "terminate": null
+      },
+      {
+        "step_id": 4,
+        "decision_id": 9,
+        "subgoal": "- goal1: Search for \"green stripe\" in product description",
+        "action": "Expand",
+        "observation": "control_flow=sequence; subgoals=['- goal1: Search for \"green stripe\" in product description']",
+        "success": null,
+        "terminate": null
+      },
+      {
+        "step_id": 4,
+        "decision_id": 10,
+        "subgoal": "- goal1: Search for \"green stripe\" in product description",
+        "action": "Expand",
+        "observation": "control_flow=sequence; subgoals=['- goal1: Search for \"green stripe\" in product description']",
+        "success": null,
+        "terminate": null
+      }
+    ],
+    "success": false,
+    "terminate": "max_decision",
+    "step_id": 4,
+    "decision_id": 11
+  },
+  "trajectory": [
+    {
+      "step_id": 1,
+      "decision_id": 1,
+      "subgoal": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+      "action": "Think",
+      "observation": "The user is looking for a specific type of clothing, so I should start by searching the webshop for relevant products.",
+      "success": null,
+      "terminate": null
+    },
+    {
+      "step_id": 1,
+      "decision_id": 2,
+      "subgoal": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+      "action": "Think",
+      "observation": "The search query is incomplete, I need to refine it to include the specific product types and features.",
+      "success": null,
+      "terminate": null
+    },
+    {
+      "step_id": 1,
+      "decision_id": 3,
+      "subgoal": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+      "action": "search[Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars]",
+      "observation": "Instruction: [SEP] Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 50) [SEP] Next > [SEP] B099WX3CV5 [SEP] Women Aesthetic Short Sleeve Jumpsuit Bodycon Sexy V Neck Button Shorts Rompers Knitted One Piece Bodysuit Overall [SEP] $13.99 to $24.89 [SEP] B09QCVCYVY [SEP] Burband Womens High Waist Bike Shorts Tummy Control Workout Yoga Pants Running Exercise Running Shorts with Side Pockets [SEP] $6.82 [SEP] B099231V35 [SEP] Mens Casual Cargo Pants Hi Vis Viz Reflective Overalls High Visibility Safe Work Pants Outdoor Hiking Trousers Big and Tall [SEP] $16.79 [SEP] B09PBPZ24Z [SEP] myhehthw Women's High Waisted Jeans for Women Distressed Ripped Jeans Slim Fit Butt Lifting Skinny Stretch Jeans Trousers [SEP] $22.99 to $25.99 [SEP] B09NDS8F4V [SEP] AODONG Onesie Pajamas for Women Onesies Romper Pajamas Printed Bodycon Jumpsuit Shorts Sexy One Piece Pjs Overall [SEP] $2.99 to $7.99 [SEP] B09QQP3356 [SEP] HAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops [SEP] $10.99 [SEP] B09M63B87V [SEP] YALFJV Women Long Sleeve Crew Neck Side Button T Shirts Tunic Dress Loose Asymmetric Hem Tunic Pullover to Wear with Leggings [SEP] $10.71 to $18.34 [SEP] B09Q37JQZ6 [SEP] Women's Sexy Swimsuit One Piece High Neck Halter Bikini Floral Stiching See Through Monokini Tummy Control Beachwear [SEP] $10.99 to $18.99 [SEP] B09Q5ZHRVM [SEP] Yinimo Mens Gym Shorts Fashionable Loose Beach Drawstring Turkey Print Beach Cool Shorts [SEP] $19.19 [SEP] B09R9YCM6R [SEP] XXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops [SEP] $8.98 to $11.99\n[reward=0.0]",
+      "success": false,
+      "terminate": null
+    },
+    {
+      "step_id": 2,
+      "decision_id": 4,
+      "subgoal": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+      "action": "Expand",
+      "observation": "control_flow=fallback; subgoals=['- goal1: Search for \"green stripe\" in product description']",
+      "success": null,
+      "terminate": null
+    },
+    {
+      "step_id": 2,
+      "decision_id": 5,
+      "subgoal": "- goal1: Search for \"green stripe\" in product description",
+      "action": "click[next >]",
+      "observation": "Instruction: [SEP] Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars [SEP] Back to Search [SEP] Page 2 (Total results: 50) [SEP] < Prev [SEP] Next > [SEP] B09HGFV91W [SEP] ZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover [SEP] $4.98 to $7.99 [SEP] B09S3BN15C [SEP] Mens Linen Shirt,Men's Striped Shirts Casual Short Sleeve Button Down Shirts Regular Fit Hawaiian Shirts Beach Tees Tops [SEP] $3.78 to $11.38 [SEP] B09PL5W9PD [SEP] Women's One Piece Swimsuit Halter Plunge Neck Tummy Control Bathing Suits Push Up Tankini Sets Plus Size Beachwear [SEP] $7.8 [SEP] B09RV4TXKJ [SEP] ORT Bodycon Lingeries for Women,2 Piece 2 pc Sleepwear for Women,Sexy Printed Ugly Valentine Nightdress Loungewear Lingeries Rompers Clubwear [SEP] $13.08 [SEP] B09HY9XB8P [SEP] Brief INSANTIY Boxer Briefs for Men and Women | Bourbon Wine Print Boxer Shorts - Comfy, Casual Underwear (XX-Large) [SEP] $19.95 [SEP] B09PVNLVRW [SEP] Women's V-Neck Rompers Printed Jumpsuit Long Sleeve Homewear Butt Flap Pajamas One-Piece Onesies Nightwear Sexy Bodysuit [SEP] $17.4 to $28.67 [SEP] B09KP78G37 [SEP] Women Faux Fur Lined Jacket Coat Winter Warm Thick Fleece Outwear Trench Zipper Plus Size Long Sleeve Plush Overcoat [SEP] $47.41 to $59.07 [SEP] B09NNMV9LN [SEP] JSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt [SEP] $3.99 to $10.99 [SEP] B09QCP4579 [SEP] LWLW High Waist Yoga Shorts for Women,Tummy Control Biker Shorts Exercise Workout Butt Lifting Tights Women's Short Pants [SEP] $13.99 [SEP] B09Q67H373 [SEP] JSPOYOU 2022 Newly T-Shirt for Mens Funny 3D Graphics Pattern Crewneck Short Sleeve Tees Big and Tall Summer Casual Comfy Top [SEP] $1.99 to $8.99\n[reward=0.0]",
+      "success": false,
+      "terminate": null
+    },
+    {
+      "step_id": 3,
+      "decision_id": 6,
+      "subgoal": "- goal1: Search for \"green stripe\" in product description",
+      "action": "click[next >]",
+      "observation": "Instruction: [SEP] Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars [SEP] Back to Search [SEP] Page 3 (Total results: 50) [SEP] < Prev [SEP] Next > [SEP] B07MGB73NJ [SEP] Viracy Women's Short Sleeve V-Neck Casual Flowy Tunic Shirt (M-3XL) [SEP] $16.99 to $26.99 [SEP] B085S5P7WB [SEP] Women High Waist Tummy Control Fitness Yoga Pants Mesh Patchwork Leggings Sexy Lace Stitching Tights [SEP] $0.01 to $2.99 [SEP] B09RVF4JP1 [SEP] Once Upon A Time Queen Born In 1982 T Shirts It Was Me Tank Top [SEP] $19.99 [SEP] B08KYBVQ46 [SEP] adidas Originals Women's Adicolor Essentials Tights [SEP] $16.82 to $35.0 [SEP] B09KLQLLT2 [SEP] Long Sleeve Superhero T Shirt Tank Top Mens Compression Shirt Men Workout Fitness Gym Shirt [SEP] $19.99 [SEP] B09PYSKD7H [SEP] FIN86 Men's Elastic High Waisted Shorts,Men's Summer Printed Casual Shorts Loose Tether Pocket Board Shorts [SEP] $9.98 to $12.98 [SEP] B093KBGC44 [SEP] Set of 2 Mesh Laundry Bags Cute Colorful Llama-1 Medium & 1 Small Bags Laundry,Blouse, Hosiery, Stocking, Underwear, Bra Lingerie, Travel Laundry Bag(8rp7d) [SEP] $15.99 [SEP] B09ND8P2QR [SEP] InterestPrint Deer and Stars Men's Loungewear Pajama Sets - Long Sleeve Tee and Jogger Pant [SEP] $43.59 [SEP] B09ND9DP7J [SEP] InterestPrint Gold Horse Pattern Men's 2-Piece Sleepwear Set, Long Sleeve Shirt with Pants Loungewear [SEP] $43.59 [SEP] B095SX6366 [SEP] WYTong Women Dress Summer V Neck Swing Dress Fashion Solid Color Tie the knot Short sleeves Leisure Dress [SEP] $9.99 to $11.99\n[reward=0.0]",
+      "success": false,
+      "terminate": null
+    },
+    {
+      "step_id": 4,
+      "decision_id": 7,
+      "subgoal": "- goal1: Search for \"green stripe\" in product description",
+      "action": "Expand",
+      "observation": "control_flow=sequence; subgoals=['- goal1: Search for \"green stripe\" in product description']",
+      "success": null,
+      "terminate": null
+    },
+    {
+      "step_id": 4,
+      "decision_id": 8,
+      "subgoal": "- goal1: Search for \"green stripe\" in product description",
+      "action": "Expand",
+      "observation": "control_flow=sequence; subgoals=['- goal1: Search for \"green stripe\" in product description']",
+      "success": null,
+      "terminate": null
+    },
+    {
+      "step_id": 4,
+      "decision_id": 9,
+      "subgoal": "- goal1: Search for \"green stripe\" in product description",
+      "action": "Expand",
+      "observation": "control_flow=sequence; subgoals=['- goal1: Search for \"green stripe\" in product description']",
+      "success": null,
+      "terminate": null
+    },
+    {
+      "step_id": 4,
+      "decision_id": 10,
+      "subgoal": "- goal1: Search for \"green stripe\" in product description",
+      "action": "Expand",
+      "observation": "control_flow=sequence; subgoals=['- goal1: Search for \"green stripe\" in product description']",
+      "success": null,
+      "terminate": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "report": {
+    "instruction": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+    "trajectory": [
+      {
+        "step_id": 1,
+        "decision_id": 1,
+        "subgoal": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+        "action": "Expand",
+        "observation": "control_flow=sequence; subgoals=[\"Find slim fit women's jumpsuits\", 'rompers & overalls with short sleeve', 'Filter by polyester spandex material', 'Filter by green stripe color', 'Filter by machine washable']",
+        "success": null,
+        "terminate": null
+      }
+    ],
+    "success": false,
+    "terminate": "max_depth",
+    "step_id": 1,
+    "decision_id": 2
+  },
+  "trajectory": [
+    {
+      "step_id": 1,
+      "decision_id": 1,
+      "subgoal": "Find me slim fit, machine wash women's jumpsuits, rompers & overalls with short sleeve, high waist, polyester spandex for daily wear with color: green stripe, and size: large, and price lower than 50.00 dollars",
+      "action": "Expand",
+      "observation": "control_flow=sequence; subgoals=[\"Find slim fit women's jumpsuits\", 'rompers & overalls with short sleeve', 'Filter by polyester spandex material', 'Filter by green stripe color', 'Filter by machine washable']",
+      "success": null,
+      "terminate": null
+    }
+  ]
+}

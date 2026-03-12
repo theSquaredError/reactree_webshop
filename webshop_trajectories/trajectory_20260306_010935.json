@@ -1,0 +1,422 @@
+[
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "search[instruction: find me machine wash]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "WebShop [SEP] Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Search"
+  },
+  {
+    "type": "act",
+    "goal": "instruction: find me machine wash",
+    "action": "click[back to search]",
+    "reasoning": "Choosing action for goal: instruction: find me machine wash",
+    "observation": "Instruction: [SEP] Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: a-blue, and size: 3x-large, and price lower than 30.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 15) [SEP] Next > [SEP] B0836D6CW4 [SEP] Sunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid [SEP] $45.99 [SEP] B01HQTWL6S [SEP] Expression Tees Pug Life Funny Thug Life Unisex Adult Hoodie [SEP] $36.99 to $48.99 [SEP] B098B8KGMB [SEP] Sheer Lace G-String For Men Floral Briefs Sexy T-Back Underwears See Through G-Strings Jockstrap Bikini Briefs [SEP] $2.99 [SEP] B07BB1FJV8 [SEP] Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet [SEP] $36.69 [SEP] B09Q5J5HKG [SEP] SWEETTY Golf Art Classic Canvas Low Top Sneakers for Unisex Men Women Fashion Sports Shoes Black [SEP] $100.0 [SEP] B09Q3PZ8JK [SEP] C.O. Bigelow Hair & Body Wash, Elixir Black, No. 1605, 8 fl oz [SEP] $18.0 [SEP] B08HN55NGW [SEP] Prepac Entryway Shoe Cubby Console, 60\", Drifted Gray [SEP] $280.99 [SEP] B09QXG3BM2 [SEP] Women Lingerie Sexy Sets - Cage Bra + Corset Bandage Hollow G String Thong Panties Racy Muslin Sleepwear Underwear [SEP] $10.3 [SEP] B09C1YWG8W [SEP] Soft Plush Electric Heated Blanket Throw with Foot Pocket | Navy Blue 50 x 62 | 3 Heat Settings with 2 Hour Auto Shut Off, UL Certified | Machine Washable [SEP] $69.99 [SEP] B08K7LDM7Q [SEP] 2 Pcs Cowhide Throw Pillow Covers Decorative Pillow Cases Farm Animal Brown Cow Hide Skin Print Pillow Case 18 X 18 Inch Velvet Square Cushion Cover for Sofa Bedroom [SEP] $17.99"
+  }
+]
