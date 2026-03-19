@@ -15,7 +15,7 @@ class LLMAgentConfig:
 @dataclass
 class PlannerConfig:
 	max_steps: int = 20
-	max_decisions: int = 20
+	max_decisions: int = 40
 	max_depth: int = 100
 	num_products: int = 100
 	random_seed: int = 0

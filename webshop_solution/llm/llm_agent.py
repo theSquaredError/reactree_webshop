@@ -58,7 +58,9 @@ class WebShopLlmAgent:
 
     def load_prompt(self, nl_inst_info, init_obs_text: str) -> str:
         nl_inst = nl_inst_info.get("nl_inst", "")
+
         message = nl_inst_info.get("message", "")
+        print(f"[llm_agent] injected nl_inst: {nl_inst!r}")
 
         system_prompt = get_webshop_reactree_prompt(nl_inst).strip()
         policy = (
@@ -77,11 +79,18 @@ class WebShopLlmAgent:
             context = ""
 
         return (
-            f"{system_prompt}\n\n"
-            f"{policy}\n"
+            f"{system_prompt}\n"
             f"{context}"
             f"Current observation:\n{init_obs_text}\n"
         )
+    
+        # return (
+        #     f"{system_prompt}\n\n"
+        #     f"{policy}\n"
+        #     f"{context}"
+        #     f"Current observation:\n{init_obs_text}\n"
+        #     )
+        
 
     def add_obs(self, obs_text: str):
         with guidance.user():
@@ -100,8 +109,8 @@ class WebShopLlmAgent:
                         guidance.gen(
                             stop="\n",
                             name="reasoning",
-                            max_tokens=200,
-                            temperature=0,
+                            max_tokens=150,
+                            temperature=0.3,
                         )
                         + "\nOK.\n"
                     )
@@ -111,10 +120,32 @@ class WebShopLlmAgent:
                     }
 
                 elif self.llm["choice"] == "Act: ":
-                    self.llm += guidance.select(skill_set, name="nl_skill") + "\n"
+                    has_search_slot = "search[query]" in skill_set
+                    base_actions = [s for s in skill_set if s!="search[query]"]
+                    act_choices = base_actions + (["search"] if has_search_slot else [])
+                    self.llm += guidance.select(act_choices, name="nl_skill")
+                    if self.llm["nl_skill"] == "search":
+                        self.llm+=(
+                            "[" +
+                            guidance.gen(
+                                stop = "]",
+                                name="search_query",
+                                max_tokens=24,
+                                temperature=0.3
+                            )+
+                            "]\n"
+                        )
+                        query = self.llm["search_query"].strip().strip('"').strip()
+                        if not query:
+                            raise ValueError("LLM produced empty search query")
+                        next_action = f"search[{query}]"
+                    else:
+                        self.llm+="\n"
+                        next_action = self.llm["nl_skill"].strip()
+
                     next_step_info = {
                         "next_step_class": "Act",
-                        "next_step": self.llm["nl_skill"].strip(),
+                        "next_step": next_action.strip(),
                     }
 
                 elif self.llm["choice"] == "Expand:\n":
@@ -128,8 +159,8 @@ class WebShopLlmAgent:
                         + guidance.gen(
                             stop="\n",
                             name="conditions",
-                            max_tokens=200,
-                            temperature=0,
+                            max_tokens=150,
+                            temperature=0.4,
                         )
                         + "\nOK.\n"
                     )
@@ -150,8 +181,10 @@ class WebShopLlmAgent:
             return next_step_info
 
         except Exception as e:
+            raise
             with guidance.user():
                 self.llm += (
                     "You should only output Think, Act, or Expand format.\n"
                 )
+
             return {"next_step_class": "Error", "next_step": str(e)}

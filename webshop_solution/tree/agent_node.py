@@ -20,7 +20,7 @@ class AgentNode(Node):
         if not self.verbose:
             return
         ts = datetime.now().strftime("%H:%M:%S")
-        print(f"[{ts}][agent_node][depth={self.depth}] {msg}", flush=True)
+        print(f"[{ts}][agent_node][id={self.node_id}][depth={self.depth}] {msg}", flush=True)
 
     def run(self, cur_step_id, cur_decision_id, log=None, init_obs_text=None, trajectory=None):
         if trajectory is None:
@@ -166,10 +166,13 @@ class AgentNode(Node):
         clickables = available.get("clickables", [])
         skill_set = [f"click[{name}]" for name in clickables]
 
+        # if available.get("has_search_bar", False):
+        #     query = self.content.get("nl_inst", "").strip()
+        #     if query:
+        #         skill_set.append(f"search[{query}]")
+
         if available.get("has_search_bar", False):
-            query = self.content.get("nl_inst", "").strip()
-            if query:
-                skill_set.append(f"search[{query}]")
+            skill_set.append("search[query]")
 
         # Keep explicit markers for subgoal-level control.
         skill_set.append("done")
@@ -193,7 +196,14 @@ class AgentNode(Node):
         return obs_text, done, reward
 
     def _mk_entry(self, step_id, decision_id, action, observation, success, terminate):
+        parent_control_flow = None
+        if isinstance(self.parent, ControlFlowNode):
+            parent_control_flow = self.parent.control_flow
+
         return {
+            "agent_node_id": self.node_id,
+            "agent_depth": self.depth,
+            "parent_control_flow": parent_control_flow,
             "step_id": step_id,
             "decision_id": decision_id,
             "subgoal": self.content.get("nl_inst", ""),
