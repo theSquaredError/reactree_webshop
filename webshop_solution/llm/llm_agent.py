@@ -40,7 +40,7 @@ class WebShopLlmAgent:
         self.base_llm = LlamaCpp(
             model=self.model_name,  # absolute path to .gguf
             chat_template=Llama3Template,
-            n_ctx=getattr(cfg.llm_agent, "n_ctx", 4096),
+            n_ctx=getattr(cfg.llm_agent, "n_ctx", 8192),
             temperature=cfg.llm_agent.temperature,
             echo=False,
         )

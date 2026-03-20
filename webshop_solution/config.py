@@ -10,6 +10,7 @@ class LLMAgentConfig:
 	max_tokens: int = 256
 	ollama_url: str = "http://localhost:11434/api/generate"
 	openai_api_key: str | None = None,
+	n_ctx = 8192
 
 
 @dataclass

@@ -57,7 +57,18 @@ class AgentNode(Node):
             self._log(f"next_step_class={next_step_class} next_step={next_step!r}")
 
             if next_step_class == "Think":
-                trajectory.append(self._mk_entry(cur_step_id, cur_decision_id, "Think", str(next_step), None, None))
+                trajectory.append(
+                    self._mk_entry(
+                        cur_step_id,
+                        cur_decision_id,
+                        "Think",
+                        self.env.observation,
+                        None,
+                        None,
+                        llm_action="Think",
+                        llm_reasoning=str(next_step),
+                    )
+                )
                 self.llm_agent.add_obs("OK.")
                 self._log("handled Think; appended synthetic obs='OK.'")
                 cur_decision_id += 1
@@ -68,12 +79,34 @@ class AgentNode(Node):
                 self._log(f"Act received action={action!r}")
 
                 if action == "done":
-                    trajectory.append(self._mk_entry(cur_step_id, cur_decision_id, action, "Subgoal marked done.", True, "done"))
+                    trajectory.append(
+                        self._mk_entry(
+                            cur_step_id,
+                            cur_decision_id,
+                            action,
+                            self.env.observation,
+                            True,
+                            "done",
+                            llm_action=action,
+                            llm_reasoning=None,
+                        )
+                    )
                     self._log("terminate=done")
                     return self._terminate(True, "done", cur_step_id, cur_decision_id + 1, trajectory)
 
                 if action == "failure":
-                    trajectory.append(self._mk_entry(cur_step_id, cur_decision_id, action, "Subgoal marked failure.", False, "failure"))
+                    trajectory.append(
+                        self._mk_entry(
+                            cur_step_id,
+                            cur_decision_id,
+                            action,
+                            self.env.observation,
+                            False,
+                            "failure",
+                            llm_action=action,
+                            llm_reasoning=None,
+                        )
+                    )
                     self._log("terminate=failure")
                     return self._terminate(False, "failure", cur_step_id, cur_decision_id + 1, trajectory)
 
@@ -87,10 +120,12 @@ class AgentNode(Node):
                     self._mk_entry(
                         cur_step_id,
                         cur_decision_id,
-                        action,
-                        obs_text,
+                        action,  # executed env action
+                        self.env.observation,  # canonical env state after env.step
                         reward > 0,
                         "env_done" if done else None,
+                        llm_action=action,
+                        llm_reasoning=None,
                     )
                 )
                 self.llm_agent.add_obs(obs_text)
@@ -110,9 +145,11 @@ class AgentNode(Node):
                         cur_step_id,
                         cur_decision_id,
                         "Expand",
-                        f"control_flow={control_flow}; subgoals={subgoals}",
+                        self.env.observation,
                         None,
                         None,
+                        llm_action=f"Expand(control_flow={control_flow}, subgoals={subgoals})",
+                        llm_reasoning=None,
                     )
                 )
 
@@ -134,7 +171,18 @@ class AgentNode(Node):
                 self._log("delegating to ControlFlowNode.run(...)")
                 return control.run(cur_step_id, cur_decision_id + 1, trajectory=trajectory, log=log)
 
-            trajectory.append(self._mk_entry(cur_step_id, cur_decision_id, "Error", str(next_step), False, "plan_next_step_error"))
+            trajectory.append(
+                self._mk_entry(
+                    cur_step_id,
+                    cur_decision_id,
+                    "Error",
+                    self.env.observation,
+                    False,
+                    "plan_next_step_error",
+                    llm_action=f"Error({next_step_class})",
+                    llm_reasoning=str(next_step),
+                )
+            )
             self._log(f"terminate=plan_next_step_error raw={next_step!r}")
             return self._terminate(False, "plan_next_step_error", cur_step_id, cur_decision_id, trajectory)
 
@@ -195,12 +243,14 @@ class AgentNode(Node):
         obs_text = f"{obs}\n[reward={reward}]"
         return obs_text, done, reward
 
-    def _mk_entry(self, step_id, decision_id, action, observation, success, terminate):
+    def _mk_entry(self, step_id, decision_id, action, observation, success, terminate, llm_action=None, llm_reasoning=None):
         parent_control_flow = None
         if isinstance(self.parent, ControlFlowNode):
             parent_control_flow = self.parent.control_flow
 
         return {
+            "llm_action": llm_action if llm_action is not None else action,
+            "llm_reasoning": llm_reasoning,
             "agent_node_id": self.node_id,
             "agent_depth": self.depth,
             "parent_control_flow": parent_control_flow,

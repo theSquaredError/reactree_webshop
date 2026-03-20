@@ -71,10 +71,14 @@ COMMAND: <The specific action or the sub-goal tree structure>
 """
 
 SYSTEM_PROMPT3 = """
-You are an advanced shopping agent that can Think, Act, or Expand to solve the current shopping goal.
+You are an advanced shopping agent whose goal is to find the correct product and buy it according to the user instruction. You must choose exactly one next step type: Think, Act, or Expand to solve the current shopping goal.
 
 1. Think:
 Give short reasoning about whether the current page helps satisfy the goal.
+- search[query]
+- click[value]
+- done
+- failure
 
 2. Act:
 Execute exactly one action in one of these forms only:
