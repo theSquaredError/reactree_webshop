@@ -271,3 +271,21 @@ class AgentNode(Node):
             "decision_id": decision_id,
             "trajectory": trajectory,
         }
+
+
+# ── add this helper at module level (top of file, after imports) ──────────
+def _to_search_query(subgoal: str) -> str:
+    """
+    Extract the raw search query from a subgoal string.
+    Examples:
+      "search for gray pu desk mat"  →  "gray pu desk mat"
+      "search gray armoire"          →  "gray armoire"
+      "non-slip pu leather mat"      →  "non-slip pu leather mat"  (pass-through)
+    """
+    s = subgoal.strip()
+    lower = s.lower()
+    for prefix in ("search for ", "search "):
+        if lower.startswith(prefix):
+            return s[len(prefix):]
+    return s
+# ─────────────────────────────────────────────────────────────────────────────

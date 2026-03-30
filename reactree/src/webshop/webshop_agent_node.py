@@ -74,25 +74,100 @@ class WebShopAgentNode(AgentNode):
                         "trajectory": trajectory
                     }
             elif next_step_class == "Expand":
-                trajectory.append({
-                    "step_id": cur_step_id,
-                    "decision_id": cur_decision_id,
-                    "subgoal": self.content.get("nl_inst", ""),
-                    "action": "Expand",
-                    "observation": next_step,
-                    "success": None,
-                    "terminate": None
-                })
-                cur_decision_id += 1
-                control_flow = next_step["control_flow"]
-                subgoals = [s.strip() for s in next_step["conditions"].split(",") if s.strip()]
-                control_flow_node = ControlFlowNode(self.cfg, control_flow, self.depth + 1)
-                self.add_child(control_flow_node)
+                control_flow = next_step.get("control_flow", "sequence")
+                subgoals = [s.strip() for s in next_step.get("conditions", "").split(",") if s.strip()]
+                self._log(f"Expand control_flow={control_flow} subgoals={subgoals}")
+                trajectory.append(
+                    self._mk_entry(
+                        cur_step_id, cur_decision_id, "Expand",
+                        self.env.observation, None, None,
+                        llm_action=f"Expand(control_flow={control_flow}, subgoals={subgoals})",
+                    )
+                )
+
+                if not subgoals:
+                    self._log("terminate=empty_expand")
+                    return self._terminate(False, "empty_expand", cur_step_id, cur_decision_id + 1, trajectory)
+
+                # ── MCTS path: parallel expand with ≥2 subgoals ──────────────
+                mcts_cfg = getattr(self.cfg, "mcts", None)
+                session_id = self.content.get("session_id")
+                use_mcts = (
+                    control_flow == "parallel"
+                    and len(subgoals) >= 2
+                    and mcts_cfg is not None
+                    and getattr(mcts_cfg, "enabled", True)
+                    and session_id is not None      # need integer session for replay
+                )
+
+                if use_mcts:
+                    from webshop_solution.mcts.webshop_state import WebShopState
+                    from webshop_solution.mcts.search_mcts import SearchQueryMCTS
+
+                    # Snapshot env state right now (before any search)
+                    base_state = WebShopState.capture(
+                        env=self.env,
+                        session_id=session_id,
+                        instruction_text=self.content.get("nl_inst", ""),
+                        max_steps=self.cfg.planner.max_steps,
+                    )
+
+                    # Each subgoal treated as a search query candidate
+                    queries = [_to_search_query(s) for s in subgoals]
+                    self._log(f"MCTS over {len(queries)} search candidates: {queries}")
+
+                    mcts = SearchQueryMCTS(
+                        env=self.env,
+                        budget=mcts_cfg.budget,
+                        max_rollout_steps=mcts_cfg.max_rollout_steps,
+                        c=mcts_cfg.c,
+                    )
+                    best_action, mcts_root = mcts.run(base_state, queries)
+                    ranked, preference_pairs = SearchQueryMCTS.build_preference_pairs(mcts_root)
+                    self._log(f"MCTS best={best_action!r} ranked={ranked}")
+
+                    # Annotate the last trajectory entry with MCTS preference data
+                    trajectory[-1]["mcts_ranked"] = ranked
+                    trajectory[-1]["mcts_preference_pairs"] = preference_pairs
+
+                    # Execute the winning search in the real env and continue the loop
+                    obs_text, done, reward = self._step_webshop(best_action)
+                    trajectory.append(
+                        self._mk_entry(
+                            cur_step_id, cur_decision_id + 1,
+                            best_action, self.env.observation,
+                            reward > 0, "env_done" if done else None,
+                            llm_action=best_action,
+                            llm_reasoning=f"MCTS-selected from {len(queries)} candidates",
+                        )
+                    )
+                    self.llm_agent.add_obs(obs_text)
+                    cur_step_id += 1
+                    cur_decision_id += 2
+                    if done:
+                        self._log("terminate=env_done (after mcts)")
+                        return self._terminate(reward > 0, "env_done", cur_step_id, cur_decision_id, trajectory)
+                    continue   # back to top of AgentNode loop; LLM now sees search results
+                # ── end MCTS path ─────────────────────────────────────────────
+
+                # Original Expand path (sequence / fallback / non-MCTS parallel)
+                control = ControlFlowNode(self.cfg, control_flow, self.depth + 1)
+                self.add_child(control)
                 for subgoal in subgoals:
-                    subgoal_info = {"nl_inst": subgoal, "task_type": self.content.get("task_type", "webshop")}
-                    agent_node = WebShopAgentNode(self.cfg, subgoal_info, self.depth + 2, self.llm_agent, self.env)
-                    control_flow_node.add_child(agent_node)
-                return self.children[0].run(cur_step_id, cur_decision_id, log, trajectory=trajectory)
+                    child = AgentNode(
+                        cfg=self.cfg,
+                        content={
+                            "nl_inst": subgoal,
+                            "task_type": self.content.get("task_type", "webshop"),
+                            "session_id": self.content.get("session_id"),   # ← propagate
+                        },
+                        depth=self.depth + 2,
+                        llm_agent=self.llm_agent,
+                        env=self.env,
+                    )
+                    control.add_child(child)
+                self._log("delegating to ControlFlowNode.run(...)")
+                return control.run(cur_step_id, cur_decision_id + 1, trajectory=trajectory, log=log)
             elif next_step_class == "Error":
                 trajectory.append({
                     "step_id": cur_step_id,

@@ -17,21 +17,24 @@ class ReactreeWebshopPlanner:
         self.env = gym.make('WebAgentTextEnv-v0', observation_mode='text', num_products=DEBUG_PROD_SIZE)
 
 
-    def plan_and_run(self, instruction_text: str = None, top_k: int = 1, verbose: bool = True) -> Dict[str, Any]:
-        # top_k kept for compatibility with previous interface.
+    def plan_and_run(self, instruction_text: str = None, top_k: int = 1, verbose: bool = True):
         _ = top_k
+
+        # ── session setup (track session_id for MCTS replay) ─────────────────────
+        session_id = None
         if instruction_text is None:
             goal_count = len(self.env.server.goals)
-            goal_idx = random.SystemRandom().randrange(goal_count)
-            obs = self.env.reset(session=goal_idx, instruction_text=None)
+            session_id = random.SystemRandom().randrange(goal_count)   # ← store int
+            obs = self.env.reset(session=session_id, instruction_text=None)
         else:
             obs = self.env.reset(instruction_text=instruction_text)
-        # obs = self.env.reset(instruction_text=instruction_text)
+            # session_id stays None → MCTS will be skipped for this run
+        # ─────────────────────────────────────────────────────────────────────────
+
         init_obs_text = obs[0] if isinstance(obs, tuple) else obs
 
         if instruction_text is None:
             if "[SEP] Instruction: [SEP]" in init_obs_text:
-
                 parts = init_obs_text.split("[SEP] Instruction: [SEP]")
                 if len(parts) > 1:
                     instruction_text = parts[1].split("[SEP]")[0].strip()
@@ -44,7 +47,11 @@ class ReactreeWebshopPlanner:
         llm_agent = WebShopLlmAgent(self.cfg)
         root = AgentNode(
             cfg=self.cfg,
-            content={"nl_inst": instruction_text, "task_type": "webshop"},
+            content={
+                "nl_inst": instruction_text,
+                "task_type": "webshop",
+                "session_id": session_id,       # ← NEW: needed by MCTS for replay
+            },
             depth=1,
             llm_agent=llm_agent,
             env=self.env,
