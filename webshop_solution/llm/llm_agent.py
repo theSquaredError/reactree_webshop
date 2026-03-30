@@ -3,13 +3,37 @@ from __future__ import annotations
 import os
 
 os.environ.setdefault("GUIDANCE_DISABLE_METRICS", "1")
+from dotenv import load_dotenv
+import os
+load_dotenv()
+hf_token = os.getenv("HF_TOKEN")
 
 import guidance
 from guidance.chat import ChatTemplate
-from guidance.models import LlamaCpp
+# from guidance.models import LlamaCpp
+from guidance import system, user, assistant, gen
+from guidance.models import Transformers
 
 from webshop_solution.prompts.webshop_prompt import get_webshop_reactree_prompt
 
+# Load model directly
+# from transformers import AutoTokenizer, AutoModelForCausalLM
+
+# tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.1-8B-Instruct")
+# model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.1-8B-Instruct")
+# messages = [
+#     {"role": "user", "content": "Who are you?"},
+# ]
+# inputs = tokenizer.apply_chat_template(
+# 	messages,
+# 	add_generation_prompt=True,
+# 	tokenize=True,
+# 	return_dict=True,
+# 	return_tensors="pt",
+# ).to(model.device)
+
+# outputs = model.generate(**inputs, max_new_tokens=40)
+# print(tokenizer.decode(outputs[0][inputs["input_ids"].shape[-1]:]))
 
 class Llama3Template(ChatTemplate):
     def get_role_start(self, role: str) -> str:
@@ -37,13 +61,15 @@ class WebShopLlmAgent:
         self.model_name = cfg.llm_agent.model_name
         self.prompt = ""
 
-        self.base_llm = LlamaCpp(
-            model=self.model_name,  # absolute path to .gguf
-            chat_template=Llama3Template,
-            n_ctx=getattr(cfg.llm_agent, "n_ctx", 8192),
-            temperature=cfg.llm_agent.temperature,
-            echo=False,
-        )
+        # self.base_llm = LlamaCpp(
+        #     model=self.model_name,  # absolute path to .gguf
+        #     chat_template=Llama3Template,
+        #     n_ctx=getattr(cfg.llm_agent, "n_ctx", 8192),
+        #     temperature=cfg.llm_agent.temperature,
+        #     echo=False,
+        # )
+        model_id = "meta-llama/Llama-3.1-8B-Instruct"
+        self.base_llm = Transformers(model_id, token=hf_token)
         self.llm = self.base_llm.copy()
 
     def reset(self, nl_inst_info, init_obs_text: str):

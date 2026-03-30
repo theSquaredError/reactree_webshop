@@ -12,6 +12,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import ElementNotInteractableException
 from web_agent_site.engine.engine import parse_action, END_BUTTON
 
@@ -61,11 +62,10 @@ class WebAgentSiteEnv(gym.Env):
         done = False
         info = None
 
-        # Map action to executed command on the WebShop environment via the broswer driver
         action_name, action_arg = parse_action(action)
         if action_name == 'search':
             try:
-                search_bar = self.browser.find_element_by_id('search_input')
+                search_bar = self.browser.find_element(By.ID, 'search_input')
             except Exception:
                 pass
             else:
@@ -75,7 +75,6 @@ class WebAgentSiteEnv(gym.Env):
             try:
                 self.text_to_clickable[action_arg].click()
             except ElementNotInteractableException:
-                # Perform force click with JavaScript
                 button = self.text_to_clickable[action_arg]
                 self.browser.execute_script("arguments[0].click();", button)
             reward = self.get_reward()
@@ -92,18 +91,16 @@ class WebAgentSiteEnv(gym.Env):
     
     def get_available_actions(self):
         """Returns list of available actions at the current step"""
-        # Determine if a search bar is available
         try:
-            search_bar = self.browser.find_element_by_id('search_input')
+            search_bar = self.browser.find_element(By.ID, 'search_input')
         except Exception:
             has_search_bar = False
         else:
             has_search_bar = True
 
-        # Collect buttons, links, and options as clickables
-        buttons = self.browser.find_elements_by_class_name('btn')
-        product_links = self.browser.find_elements_by_class_name('product-link')
-        buying_options = self.browser.find_elements_by_css_selector("input[type='radio']")
+        buttons = self.browser.find_elements(By.CLASS_NAME, 'btn')
+        product_links = self.browser.find_elements(By.CLASS_NAME, 'product-link')
+        buying_options = self.browser.find_elements(By.CSS_SELECTOR, "input[type='radio']")
 
         self.text_to_clickable = {
             f'{b.text}': b
@@ -180,12 +177,18 @@ class WebAgentSiteEnv(gym.Env):
 
     @property
     def action_space(self):
-        # Recommended to use `get_available_actions` instead
-        return NotImplementedError
+        return spaces.Text(max_length=1000)
 
     @property
     def observation_space(self):
-        return NotImplementedError
+        if self.observation_mode == 'html':
+            return spaces.Text(max_length=100000)
+        elif self.observation_mode == 'text':
+            return spaces.Text(max_length=50000)
+        else:
+            raise ValueError(
+                f'Observation mode {self.observation_mode} not supported.'
+            )
 
     def reset(self):
         """Create a new session and reset environment variables"""
