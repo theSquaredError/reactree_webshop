@@ -53,7 +53,7 @@ class WebShopLlmAgent:
         # Start each episode from a fresh copy of the base model state.
         self.llm = self.base_llm.copy()
 
-        with guidance.user():
+        with guidance.system():
             self.llm += self.prompt
 
     def load_prompt(self, nl_inst_info, init_obs_text: str) -> str:
